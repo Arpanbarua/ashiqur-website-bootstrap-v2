@@ -55,44 +55,88 @@
 
     /*-------- experience css start ----------*/
 
-    #experience .row
-    {
-        padding-left: 90px;
-    }
 
-    #experience .row .title::before 
-    {
+
+    #experience .row .title::before {
         content: "";
         position: absolute;
         stroke-width: 2px;
         height: 42px;
         width: 42px;
-        border: 2px dashed #7A7A7A ;
+        border: 2px dashed #7A7A7A;
         border-radius: 50%;
         top: 0;
         left: -42px;
         background: #fff;
         z-index: 2;
     }
-    
-    #experience .row .title::after
-    {
+
+    #experience .row .title::after {
         content: "";
         position: absolute;
         height: 21px;
         width: 21px;
-        background: #52AB70 ;
-        top: 0;
-        left: 0;
+        background: #52AB70;
+        top: 11px;
+        left: -31px;
         border-radius: 50%;
         z-index: 3;
-    } 
+    }
+
+    #experience .container .row {
+        padding-left: 90px;
+        position: relative;
+        padding-bottom: 30px;
+    }
+
+    #experience .container .row:before {
+        content: "";
+        position: absolute;
+        width: 2px;
+        height: 100%;
+        border-left: 2px dashed #000;
+        left: 67px;
+        top: 0;
+
+    }
+
+    #experience .row .title {
+        padding-bottom: 20px;
+    }
 
 
 
+    #experience .line {
+        display: none;
 
+    }
 
     /*-------- experience css end ----------*/
+
+    /*-------- expert css start ----------*/
+
+    #expert .details
+    {
+        margin-bottom: 30px;
+    }
+
+    #expert .details h4
+    {
+        text-align: center;
+    }
+
+    #expert .details p
+    {
+        text-align: justify;
+    }
+
+    #expert .buttons 
+    {
+        text-align: center;
+    }
+    /*-------- expert css end ----------*/
+
+
 
     #blogpost .details p:first-child {
         margin-right: 10px;
@@ -102,7 +146,8 @@
         text-align: center;
     }
 
-
+ /*-------- expert css start ----------*/
+ 
     #expert .nav-pills {
         justify-content: center;
     }
@@ -110,7 +155,29 @@
     #expert .skills {
         margin-top: 30px;
     }
+ /*-------- expert css end ----------*/
 
+    /*-------- feedback css start ----------*/
+    #feedback .contains h4,  #feedback .contains p, #feedback .details .quote
+    {
+        width: 100%;
+        text-align: center;
+    }
+    
+    #feedback .client-image
+    {
+        text-align: center;
+    }
+
+    #feedback .details .quote
+    {
+        margin-top: 30px;
+    }
+    #feedback .details .heading 
+    {
+        text-align: center;
+    }
+    /*-------- feedback css end ----------*/
 
 
     #footer .second .call img {
@@ -134,44 +201,42 @@
         top: 43px;
     }
 
-  
+
     /*------------------------------------------------------------ contact.html css end --------------------------------------------------------------*/
-  
-  
-  
+
+
+
     /*------------------------------------------------------------ about.html css start --------------------------------------------------------------*/
-  
-  /* #aboutme .details 
+
+    /* #aboutme .details 
 {
     justify-content: between;
 } */
 
 
-#aboutme .buttons
-{
-    text-align: center;
-}
-#aboutme .contains>p
-{
-    margin-bottom: 30px;
-}
-  
+    #aboutme .buttons {
+        text-align: center;
+    }
 
-#aboutme .contains
-{
-    margin-top: 40px;
-}
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+    #aboutme .contains>p {
+        margin-bottom: 30px;
+    }
+
+
+    #aboutme .contains {
+        margin-top: 40px;
+    }
+
+
+
+
+
+
+
+
+
+
+
     /*------------------------------------------------------------ about.html css end --------------------------------------------------------------*/
 
 
@@ -387,9 +452,9 @@
         padding-bottom: 20px;
     }
 
-    /* #experience .line {
+    #experience .line {
         display: none;
-    } */
+    }
 
     #experience .container {
 
@@ -653,7 +718,7 @@
     /*------------------------------------------------------------ contact.html css --------------------------------------------------------------*/
 
     /*-------- banner-contact css start ----------*/
-    
+
     #banner-contact .heading h4 {
         font-size: 36px;
     }
@@ -671,6 +736,7 @@
         left: 80px;
         top: 31px;
     }
+
     /*-------- banner-contact css end ----------*/
 
     #card-form .form-section {
@@ -678,58 +744,52 @@
         text-align: center;
     }
 
-/*------------------------------------------------------------ contact.html css ------------------------------------------------------------------*/
+    /*------------------------------------------------------------ contact.html css ------------------------------------------------------------------*/
 
-/*------------------------------------------------------------ about.html css --------------------------------------------------------------------*/
+    /*------------------------------------------------------------ about.html css --------------------------------------------------------------------*/
 
-#aboutme .contains>p
-{
-    margin-bottom: 30px;
-}
+    #aboutme .contains>p {
+        margin-bottom: 30px;
+    }
 
-#aboutme .contains
-{
-    margin-top: 20px;
-    text-align: center;
-}
+    #aboutme .contains {
+        margin-top: 20px;
+        text-align: center;
+    }
 
-/* #aboutme .details p
+    /* #aboutme .details p
 {
     text-align: center;
 } */
 
-#exp-edu .education 
-{
-    margin-top: 50px;
-}
+    #exp-edu .education {
+        margin-top: 50px;
+    }
 
-#exp-edu .education>h4, #exp-edu .experience>h4
-{
-    text-align: center;
-}
+    #exp-edu .education>h4,
+    #exp-edu .experience>h4 {
+        text-align: center;
+    }
 
-#exp-edu
-{
-    padding: 40px 0;
-}
+    #exp-edu {
+        padding: 40px 0;
+    }
 
-/*-------- myskills css start ----------*/
+    /*-------- myskills css start ----------*/
 
-#myskills .container>h4
-{
-    text-align: center;
-}
+    #myskills .container>h4 {
+        text-align: center;
+    }
 
-#myskills
-{
-    padding: 30px 0 40px 0;
-}
+    #myskills {
+        padding: 30px 0 40px 0;
+    }
 
 
 
-/*-------- myskills css end ----------*/
+    /*-------- myskills css end ----------*/
 
 
-/*------------------------------------------------------------ about.html css --------------------------------------------------------------------*/
+    /*------------------------------------------------------------ about.html css --------------------------------------------------------------------*/
 
 }
