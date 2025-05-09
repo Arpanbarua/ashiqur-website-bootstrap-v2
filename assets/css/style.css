@@ -1360,16 +1360,16 @@ align-items: center;
 
 #banner-contact .container 
 {
-    background: url(/assets/images/bg.png) no-repeat ;
+    background: url(../images/bg.png) no-repeat ;
     background-size: cover;
     border-radius: 20px;
     padding: 20px 0;
 }
-#banner-contact .container .heading 
+/* #banner-contact .container .heading 
 {
     
     background: rgba(255, 204, 0, 0.66), url("path_to_image");
-}
+} */
 
 #banner-contact .heading
 {
