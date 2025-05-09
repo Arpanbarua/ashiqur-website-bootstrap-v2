@@ -1,0 +1,1842 @@
+:root {
+    --font-family: "Poppins", sans-serif;
+    --second-family: "PT Sans", sans-serif;
+    --third-family: "Potta One", sans-serif;
+    --font3: "Baloo Da 2", sans-serif;
+}
+
+#nav ul li a {
+    text-transform: uppercase;
+    padding: 21px 20px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 200%;
+    color: #353535;
+    position: relative;
+    display: inline-block;
+}
+
+#nav ul li .active 
+{
+    border-bottom: 3px solid #000;
+}
+#nav ul li a::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0%;
+    background-color: #353535;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+#nav ul li a:hover::before {
+    visibility: visible;
+    width: 100%;
+    transition: 0.8s ease;
+}
+
+
+#nav {
+    padding: 0;
+}
+
+.offcanvas-header .image {
+    margin-left: 30%;
+}
+
+
+/*-------- banner section start ----------*/
+
+#banner {
+    padding-bottom: 20px;
+}
+
+#banner .waving {
+    color: #FFD233;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+#banner p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 190%;
+    color: #353535;
+}
+
+#banner .intro {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 24px;
+    color: #353535;
+}
+
+#banner .img {
+    margin-top: 60px;
+    text-align: center;
+}
+
+
+
+#banner h4 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 64px;
+    color: #353535;
+}
+
+
+
+#banner .banner-link a:last-child {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 180%;
+    color: #353535;
+    text-decoration: none;
+    outline: 1px solid #000;
+    border-radius: 20px;
+    padding: 16px 18px;
+    display: inline-flex;
+    margin-left: 40px;
+}
+
+#banner .banner-link a:last-child:hover {
+    background: lightgoldenrodyellow;
+    color: #000;
+    outline: 2px solid #fc0;
+}
+
+
+
+#banner .banner-link .talk {
+    text-decoration: none;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 180%;
+    padding: 16px 45px;
+    display: inline-flex;
+    color: #fff;
+    border-radius: 20px;
+    background: #fc0;
+
+}
+
+#banner .banner-link .talk:hover {
+    background: transparent;
+    color: #000;
+    outline: 2px solid #fc0;
+}
+
+
+
+#banner .banner-link {
+    margin-top: 40px;
+}
+
+#banner .banner-link span {
+
+    display: inline-flex;
+    align-items: center;
+    line-height: 0;
+}
+
+#banner .follow {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+
+}
+
+#banner .follow p {
+    margin-bottom: 0;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 180%;
+    color: #353535;
+}
+
+#banner .follow .icons {
+
+    display: flex;
+    align-items: center;
+
+
+}
+
+#banner .follow .icons a {
+    display: inline-flex;
+    align-items: center;
+    line-height: 0;
+    background-color: #F4F3F3;
+    padding: 10px;
+    margin: 0 10px;
+    border-radius: 50%;
+    color: black;
+    transition: 0.7s;
+}
+
+#banner .follow .icons a:hover {
+    transform: rotate(90deg);
+
+}
+
+#banner {
+    position: relative;
+}
+
+#banner .mouse {
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+
+}
+
+#banner .mouse:hover {
+    transform: rotate(360deg);
+    transition: 1s;
+}
+
+
+/*-------- bannner section end ----------*/
+
+#about {
+
+    margin: 50px 0;
+    background: linear-gradient(to right, #FED62A, #FBF8B1);
+
+}
+
+#about .img{
+    text-align: center;
+}
+
+
+
+#about .contains h4 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    color: #353535;
+    margin-bottom: 26px;
+}
+
+#about .contains a {
+    outline: 1px solid #000;
+    border-radius: 20px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180%;
+    color: #353535;
+    padding: 17px 44px;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+#about .contains a:hover {
+    background: #fff;
+    outline: 1px solid black;
+
+
+}
+
+#about .contains p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 190%;
+    color: #353535;
+    margin-bottom: 45px;
+    width: 90%;
+    text-align: justify;
+}
+
+#about .container {
+    position: relative;
+}
+
+#about .shape {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+/*-------- cards css ----------*/
+#cards {
+    padding: 20px 0 50px 0;
+}
+
+#cards .card-box {
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.08);
+    background: #fff;
+    text-align: center;
+    width: calc(33.33% - 32px);
+    margin: 16px;
+    padding: 47px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+/* #cards .card-box {
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.08);
+    background: #fff;
+    text-align: center;
+    width: calc(33.33% - 32px);
+    margin: 16px;
+    padding: 47px;
+    cursor: pointer;
+  } */
+
+#cards .card-box h4 {
+    margin: 18px 0 14px 0;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 180%;
+    text-align: center;
+    color: #353535;
+
+}
+
+/* 
+#cards .card-box img 
+{
+    margin-top: 20px;
+}  */
+
+
+#cards .card-box img:hover {
+    transform: scale(1.2);
+}
+
+#cards .card-box p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 190%;
+    text-align: center;
+    color: #7a7a7a;
+
+}
+
+
+/*-------- cards css ----------*/
+
+
+/*-------- branding css ----------*/
+
+#branding {
+    margin: 40px 0;
+}
+
+#branding .image {
+    padding-top: 15px;
+}
+
+
+#branding .container {
+    background: linear-gradient(130deg, #fc0 0%, #fff5cb 100%);
+    border-radius: 30px;
+
+}
+
+#branding .contains {
+    margin-top: 20px;
+    position: relative;
+
+}
+
+
+#branding .contains h4 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 44px;
+    color: #353535;
+}
+
+#branding .contains p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 190%;
+    color: #353535;
+    width: 95%;
+
+
+    margin: 21px 0 35px 0;
+}
+
+#branding .contains a {
+    outline: 1px solid #000;
+    border-radius: 20px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 180%;
+    text-align: center;
+    color: #353535;
+    padding: 18px 38px;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+#branding .contains a:hover {
+    background: #fff;
+    outline: 1px solid black;
+    color: #FF8D3A;
+
+}
+
+#branding .vector {
+    position: absolute;
+    bottom: 50px;
+    left: 210px;
+}
+
+#branding .shape {
+    position: absolute;
+    top: -130px;
+    right: 60px;
+    display: inline-block;
+}
+
+
+/*-------- branding css ----------*/
+
+/*-------- help css ----------*/
+
+#help {
+    padding: 50px 0;
+}
+
+#help .col-12 .d-flex {
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.08);
+    background: #fff;
+    border-radius: 20px;
+    padding: 16px 29px;
+    margin-bottom: 24px;
+}
+
+#help .d-flex img:nth-child(1) {
+    padding: 13px;
+    background-color: #55852F;
+    border-radius: 50%;
+
+}
+
+#help .col-12:nth-child(2) img {
+    background-color: #FED62A;
+
+}
+
+#help .col-12:nth-child(3) img {
+    background-color: #FF8D3A;
+
+}
+
+#help .d-flex .details {
+    padding-left: 18px;
+}
+
+#help .d-flex .details h4 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 180%;
+    color: #353535;
+}
+
+#help .d-flex .details p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 180%;
+    color: #353535;
+    margin-bottom: 0;
+}
+
+#help .col-xl-7 .contains {
+    text-align: right;
+}
+
+#help .col-xl-7 .contains h4 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    text-align: right;
+    color: #353535;
+    margin-bottom: 26px;
+}
+
+#help .col-xl-7 .contains p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 190%;
+    text-align: right;
+    color: #353535;
+}
+
+
+#help .project {
+    margin-top: 30px;
+}
+
+#help .project .d-flex .col-xl-3 p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 180%;
+    color: #353535;
+    margin-top: 9px;
+    text-align: right;
+}
+
+#help .project .d-flex .col-xl-3 h4 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 40px;
+    text-align: right;
+    color: #353535;
+}
+
+#help .project .d-flex .col-xl-3:last-child {
+    padding-left: 40px;
+}
+
+
+#help .project .d-flex {
+    text-align: right;
+}
+
+
+/*-------- help css ----------*/
+
+/*-------- experience css  ----------*/
+
+#experience 
+{
+    padding: 20px 0 50px 0;
+}
+
+#experience .heading h4 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    color: #353535;
+    margin-bottom: 90px;
+}
+
+#experience .row .col-xl-3 h4 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 180%;
+    color: #353535;
+}
+
+#experience .row .col-xl-3 p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180%;
+    color: #7a7a7a;
+}
+
+#experience .row .col-xl-6 p 
+{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+line-height: 200%;
+color: #7a7a7a;
+}
+
+#experience .row .col-xl-6 h4
+{
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 24px;
+line-height: 180%;
+color: #353535;
+}
+
+
+#experience .row .title 
+{
+    position: relative;
+    padding-bottom: 100px;
+}
+
+#experience .row .title::before 
+{
+    content: "";
+    position: absolute;
+    stroke-width: 2px;
+    height: 42px;
+    width: 42px;
+    border: 2px dashed #7A7A7A ;
+    border-radius: 50%;
+    top: -1px;
+    right: -173px;
+    background: #fff;
+    z-index: 2;
+}
+
+#experience .row .title::after
+{
+    content: "";
+    position: absolute;
+    height: 21px;
+    width: 21px;
+    background: #52AB70 ;
+    top: 10px;
+    right: -163px;
+    border-radius: 50%;
+    z-index: 3;
+} 
+
+#experience .service .title::after 
+{
+    background: #F17676;
+}
+
+#experience .solution .title::after
+{
+    background: #FFD233;
+} 
+
+#experience .line
+{
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    border-right: 2px dashed #7a7a7a; 
+    top: 0;
+    right: -154px;
+    
+}
+
+
+/*-------- experience css  ----------*/
+
+/*-------- expert css ----------*/
+#expert 
+{
+    padding: 50px 0;
+}
+
+#expert .details h4 
+{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    color: #353535;
+    margin-bottom: 49px;
+}
+
+#expert .details p
+{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 200%;
+    color: #7a7a7a;
+    margin-bottom: 14px;
+}
+
+
+
+#expert .details a 
+{
+    margin-top: 39px;
+    background: #fc0;
+    border-radius: 12px;
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 180%;
+color: #fff;
+padding: 10px 21px;
+display: inline-flex;
+text-decoration: none;
+} 
+
+#expert .details a:hover 
+{
+    color: black;
+    outline: 1px solid #fc0;
+    background: #fff;
+}
+
+#expert .details a span 
+{
+    display: inline-flex;
+    line-height: 0;
+    align-items: center;
+
+}
+
+
+
+#expert .skills .links-select
+{
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 18px;
+line-height: 180%;
+text-align: center;
+color: #353535;
+padding: 16px 64px;
+margin-right: 15px;
+}
+
+#expert .skills .links-select:hover 
+{
+    outline: 1px solid black;
+    border-radius: 20px;
+    background: #fff;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link
+{
+    background-color: #fff ;
+    outline: 1px solid black;
+    border-radius: 20px;
+}
+
+
+#expert .skills-list
+{
+    padding-top: 10px;
+}
+
+
+
+#expert .skills-list li 
+{
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 18px;
+line-height: 180%;
+color: #353535;
+padding: 17px 25px;
+
+
+} 
+
+#expert .skills-list li:nth-child(4)
+{
+    color: #234bda;
+}
+#expert .skills-list li:nth-child(3)
+{
+    color: #700d60;
+}
+
+#expert .skills .contains h4 
+{
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 18px;
+line-height: 180%;
+color: #353535;
+margin-top: 40px;
+margin-bottom: 11px;
+}
+
+#expert .skills .figma-bar 
+{
+    background: #f16500;
+    
+}
+
+#expert .skills .photoshop-bar
+{
+    background: #03249B;
+} 
+
+#expert .skills .xd-bar
+{
+    background-color: #700d60;
+}
+
+#expert .skills .illustrator-bar
+{
+    background-color: #234bda;
+}
+
+#expert .skills .contains .illustrator
+{
+    
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 18px;
+line-height: 180%;
+color: #234bda;
+}
+
+#expert .skills .contains .xd 
+{
+    color: #700d60;
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 18px;
+line-height: 180%;
+
+}
+
+#expert .skills .contains .illustrator-progress
+{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+line-height: 180%;
+text-align: right;
+color: #234bda;
+
+}
+
+
+#expert .skills .contains .xd-progress
+{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    text-align: right;
+    color: #700d60;
+    
+}
+
+
+#expert .skills .contains .photoshop-progress
+{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+line-height: 180%;
+text-align: right;
+color: #03249b;
+/* padding-right: 130px; */
+}
+#expert .skills .contains .num-progress
+{
+    
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    text-align: right;
+    color: #f16500;
+    margin-bottom: 0;
+    /* padding-right: 80px; */
+}
+
+/* =====  expert css =======  */
+
+/*-------- services css ----------*/
+#services 
+{
+    padding: 70px 0;
+    margin-top: 48px ;
+    background: #FFF7D5;
+}
+
+#services .contains
+{
+    margin-bottom: 50px ;
+}
+
+#services .contains h4 
+{
+    font-family: var(--second-family);
+font-weight: 700;
+font-size: 50px;
+text-align: center;
+color: #353535;
+margin-bottom: 13px;
+
+}
+
+#services .contains p
+{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+line-height: 180%;
+text-align: center;
+color: #7a7a7a;
+width: 50%;
+margin: auto;
+
+}
+
+
+#services .row .card-box
+{
+    text-align: center;
+    padding: 48px;
+    outline: 0.10px solid #353535;
+border-radius: 12px;
+box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.06);
+background: #fff;
+margin: 10px;
+width: calc(33.33% - 20px );
+cursor: pointer;
+}
+
+#services .row .card-box:hover 
+{
+    transform: scale(1.03);
+    transform-origin: bottom;
+    /* margin: 0 10px; */
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.06);
+background: linear-gradient(151deg, #fc0 0%, #ffe476 98.84%);
+}
+
+#services .row .card-box p 
+{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 15px;
+line-height: 180%;
+text-align: center;
+color: #7a7a7a;
+margin-bottom: 0;
+}
+
+#services .row .card-box h4
+{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 180%;
+    text-align: center;
+    color: #353535;
+    margin: 20px 0 25px 0;
+}
+
+
+/*-------- services css ----------*/
+
+
+/*-------- feedback css start ----------*/
+
+#feedback 
+{
+    padding: 30px 0;
+    background: #FBFBFB;
+}
+
+#feedback .contains
+{
+    padding-top: 50px;
+}
+
+#feedback .contains p 
+{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    color: #7a7a7a;
+    width: 55%;
+    margin-bottom: 30px;
+}
+
+#feedback .contains h4
+{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 135%;
+    color: #353535;
+    width: 50%;
+    margin-bottom: 8px;
+}
+
+#feedback .details .quote
+{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 20px;
+line-height: 200%;
+color: #7a7a7a;
+margin-bottom: 28px;
+width: 90%;
+}
+
+
+#feedback .details .heading h4 
+{
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 24px;
+line-height: 200%;
+color: #353535;
+}
+
+#feedback .details .heading p 
+{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 200%;
+
+color: #7a7a7a;
+}
+
+/*-------- feedback css end ----------*/
+
+/*-------- blogpost css start ----------*/
+#blogpost 
+{
+    padding: 60px 0;
+}
+#blogpost .container>h4 
+{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 135%;
+    text-align: right;
+    color: #353535;
+    margin-bottom: 30px;
+}
+
+#blogpost .card-box 
+{
+    /* outline: 1px solid #000; */
+    padding: 20px;
+    width: calc(50% - 20px);
+    margin: 10px;
+}
+
+#blogpost .card-box:hover 
+{
+    box-shadow: 3px 3px 10px #00000035;
+    border-radius: 12px;
+}
+
+
+
+#blogpost .details p
+{
+    display: inline-flex;
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 190%;
+color: #7a7a7a;
+    
+}
+
+#blogpost .details p span 
+{
+    display: inline-flex;
+    align-items: center;
+    line-height: 0;
+}
+
+#blogpost .details h5
+{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 190%;
+    color: #353535;
+    /* padding-left: 20px; */
+    
+}
+
+#blogpost .heading 
+{
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 18px;
+line-height: 190%;
+color: #353535;
+margin-bottom: 20px;
+}
+
+
+#blogpost .card-side 
+{
+    padding: 10px;
+}
+#blogpost .card-side a
+{
+text-decoration: none;
+font-family: var(--font-family);
+font-weight: 500;
+font-size: 18px;
+line-height: 190%;
+color: #353535;
+
+}
+
+#blogpost .card-side a:hover 
+{
+    color: #52AB70;
+}
+
+
+/*-------- blogpost css end ----------*/
+
+/*-------- subscribe css start ----------*/
+#subscribe 
+{
+    padding: 60px 0;
+}
+
+#subscribe .container
+{
+    border-radius: 30px;
+    background: linear-gradient(130deg, #fc0 0%, #fff5cb 100%);
+    padding: 50px;
+}
+
+#subscribe .d-flex button
+{
+    padding: 22px;
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 16px;
+line-height: 200%;
+color: #fff;
+background: #ff6565;
+border-radius: 0 16px 16px 0;
+border: 0;
+position: static;
+margin-left: -118px;
+display: inline-block;
+}
+
+#subscribe .form-section input::placeholder 
+{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+line-height: 200%;
+color: #7a7a7a;
+}
+#subscribe .form-section input 
+{
+    background: #fff;
+    border-radius: 16px ;
+    padding: 25px 194px 25px 26px;
+    border: 0;
+    
+}
+
+#subscribe .contains p:first-of-type 
+{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 20px;
+line-height: 200%;
+margin-bottom: 0;
+color: #353535;
+}
+
+#subscribe .contains p:last-of-type 
+{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 200%;
+    color: #353535;
+}
+
+#subscribe .contains h4 
+{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 200%;
+    color: #353535;
+    margin-bottom: 0;
+} 
+
+
+
+/*-------- subscribe css end ----------*/
+
+/*-------- footer css start ----------*/
+#footer 
+{
+    /* background-image:url(/assets/images/Group\ 215.png); */
+    padding: 20px 0 30px 0;
+    background: #575757;
+}
+
+#footer .first p 
+{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 180%;
+text-align: justify;
+color: #bbb9b9;
+} 
+#footer .first h4 
+{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 200%;
+    color: #fff;
+    margin-bottom: 0;
+}
+#footer .first 
+{
+    padding-top: 50px;
+}
+
+/* #footer .first .logo 
+{
+    margin-bottom: 20px;
+} */
+
+#footer .first a span 
+{
+    display: inline-flex;
+    align-items: center;
+    line-height: 0;
+}
+#footer .first a 
+{
+    text-decoration: none;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 180%;
+    padding: 16px 20px 16px 32px;
+    display: inline-flex;
+    color: #fff;
+    border-radius: 20px;
+    background: #fc0;
+    /* margin-top: 10px; */
+
+}
+#footer .first a:hover 
+{
+    background: #fff;
+    color: #000;
+    outline: 2px solid #fc0;
+}
+
+#footer .second .call .num
+{
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 20px;
+line-height: 180%;
+color: #fff;
+}
+#footer .second .call p:first-child
+{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    text-align: justify;
+    color: #bbb9b9;
+}
+
+#footer .second .email p:last-child
+{
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 20px;
+line-height: 180%;
+color: #fff;
+}
+#footer .second .email p:first-child
+{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    text-align: justify;
+    color: #bbb9b9;
+}
+
+#footer .follow p:first-child
+{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+line-height: 180%;
+text-align: justify;
+color: #fff;
+margin-bottom: 0;
+display: inline-flex;
+align-items: center;
+}
+
+#footer .follow span
+{
+    display: inline-flex;
+    line-height: 0;
+    align-items: center;
+    background: #484848;
+    padding: 14px;
+    border-radius: 50%;
+    margin: 0 10px;
+
+}
+
+#footer .follow span:hover 
+{
+    background: #fff;
+}
+
+#footer .first .logo 
+{
+    position: relative;
+} 
+
+#footer .first .talk-part
+{
+    position: relative;
+} 
+
+#footer .first .talk-part .polygon
+{
+    position: absolute;
+    right: -35px;
+    bottom: -30px;
+}
+#footer .first .logo .shape1
+{
+    position: absolute;
+    left: -56px;
+    bottom: -48px;
+}
+
+#footer .second
+{
+    margin-top: 70px;
+}
+
+#footer .second .call 
+{
+    position: relative;
+}
+
+#footer .second .call img 
+{
+    position: absolute;
+    left: -102px;
+    top: -40px;
+    /* transform: rotate(30deg); */
+}
+
+
+
+/*-------- footer css end ----------*/
+
+
+
+
+/*-------- footer css end ----------*
+/*-------- banner-contact css start ----------*/
+#banner-contact 
+{
+    padding: 30px 0;
+}
+
+#banner-contact .container 
+{
+    background: url(/assets/images/5447586\ 1.png) no-repeat ;
+    background-size: cover;
+    border-radius: 20px;
+    padding: 20px 0;
+}
+#banner-contact .container .heading 
+{
+    
+    background: rgba(255, 204, 0, 0.66), url("path_to_image");
+}
+
+#banner-contact .heading
+{
+    text-align: center;
+}
+
+#banner-contact .heading 
+{
+    position: relative;
+}
+#banner-contact .heading .shape 
+{
+    position: absolute;
+    left: 259px;
+    top: 46px;
+}
+
+
+#banner-contact .heading h4
+{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 46px;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#banner-contact .heading p 
+{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 190%;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    margin-top: 10px;
+}
+
+#banner-contact .heading p::before 
+{
+    content: "";
+    position: absolute;
+   
+    left: 312px;
+    bottom: 9px;
+    height: 2px;
+    background-color: #fff;
+    width: 10%;
+
+
+}
+
+#banner-contact .heading p::after 
+{
+    content: "";
+    position: absolute;
+   
+   right: 315px;
+   bottom: 10px;
+    height: 2px;
+    background-color: #fff;
+    width: 10%;
+
+
+}
+
+
+
+/*-------- banner-contact end ----------*/
+
+
+/*-------- card-form css start ----------*/
+
+#card-form
+{
+    padding: 30px 0;
+}
+
+#card-form .card-box
+{
+    padding: 12px;
+}
+#card-form .card-box span
+{
+    color: #F16500;
+    padding: 20px;
+    border-radius: 100%;
+    background-color: #FFEBDC;
+    display: inline-flex;
+    line-height: 0;
+    align-items:center;
+}
+
+#card-form .card-section .card-box:nth-child(2) span 
+{
+    color: #55852F;
+    background-color: #f0ffe4;
+}
+
+
+#card-form .card-section .card-box:nth-child(3) span 
+{
+    color: #234bda;
+    background-color: #EEF2FF;
+}
+
+#card-form .card-box .details 
+{
+    padding-left: 20px;
+}
+
+#card-form .card-box .details h4 
+{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 190%;
+    color: #353535;
+    margin-bottom: 0;
+}
+
+#card-form .card-box .details p 
+{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 190%;
+    color: #7a7a7a;
+    margin-bottom: 0;
+}
+
+#card-form .form-section
+{
+    margin-bottom: 20px;
+}
+
+#card-form .form-section input::placeholder, #card-form .form-section textarea::placeholder 
+{
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 190%;
+    color: #7a7a7a;
+    /* padding: 16px ; */
+}
+
+#card-form .form-section input
+{
+    padding: 20px 20px;
+    border: 0.50px solid #7a7a7a;
+border-radius: 12px;
+}
+
+#card-form .form-section textarea
+{
+    border: 0.50px solid #7a7a7a;
+    border-radius: 12px; 
+}
+
+#card-form .form-section button 
+{
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 18px;
+line-height: 180%;
+text-align: center;
+color: #fff;
+border-radius: 12px;
+background: #fc0;
+padding: 11px 44px;
+border: 0;
+}
+
+#card-form .form-section button:hover 
+{
+    background-color: #fff;
+    color: #000;
+    outline: 1px solid #fc0;
+}
+
+/*-------- card-form css end ----------*/
+
+/*------------------------------------------------------------ about.html css start --------------------------------------------------------------*/
+
+
+/*-------- aboutme css start ----------*/
+#aboutme 
+{
+    padding: 30px 0 60px 0;
+}
+#aboutme .profile-pic 
+{
+    text-align: center;
+}
+
+#aboutme .contains>p
+{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 200%;
+    text-align: justify;
+    color: #7a7a7a;
+    margin-bottom: 105px;
+}
+
+#aboutme .details p
+{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 190%;
+    color: #7a7a7a;
+}
+#aboutme .details p .font-bold 
+{
+    font-weight: 500;
+    color: #353535;
+}
+#aboutme .details p .font-blue
+{
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #3479ff;
+}
+
+
+#aboutme .contains a span 
+{
+    display: inline-flex;
+ line-height: 0;
+ align-items: center;
+}
+#aboutme .contains a 
+{
+    margin-top: 39px;
+    background: #fc0;
+    border-radius: 12px;
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 180%;
+color: #fff;
+padding: 10px 21px;
+display: inline-flex;
+text-decoration: none;   
+}
+
+#aboutme .contains a:hover 
+{
+    color: black;
+    outline: 1px solid #fc0;
+    background: #fff;
+}
+
+/*-------- aboutme css end ----------*/
+
+/*-------- line css start ----------*/
+
+#line hr 
+{
+    border: 0.70px solid #7a7a7a;
+}
+
+/*-------- line css end ----------*/
+
+/*--------  exp-edu css start ----------*/
+#exp-edu
+{
+    padding: 70px 0;
+}
+
+
+#exp-edu .heading 
+{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 40px;
+    color: #353535;
+    margin-bottom: 50px;
+}
+
+
+
+#exp-edu .contains p:last-of-type
+{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 200%;
+    color: #7a7a7a;
+}
+
+#exp-edu .contains h4 
+{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 180%;
+    color: #353535;
+}
+
+#exp-edu .contains p:first-of-type 
+{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 190%;
+color: #7a7a7a;
+display: inline-flex;
+}
+
+#exp-edu .contains p:first-of-type span 
+{
+    display: inline-flex;
+    line-height: 0;
+    align-items: center;
+}
+
+#exp-edu .contains
+{
+    padding-left: 60px;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+#exp-edu .contains::before 
+{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 5px;
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    stroke-width: 2px;
+    background-color: #fff;
+    z-index: 2;
+    border: 2px dashed #7a7a7a;
+}
+
+#exp-edu .contains::after
+{
+    content: "";
+    position: absolute;
+    top: 9px;
+    left: 14px;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    z-index: 3;
+    background: #52AB70;
+    
+}
+
+#exp-edu .red .contains::after
+{
+    background-color: #F17676;
+}
+
+#exp-edu .yellow .contains::after
+{
+    background-color: #FFD233;
+}
+
+#exp-edu .contains .line
+{
+    position: absolute;
+    left: 21px;
+    top: 10px;
+    height: 100%;
+    
+    border-left:2px dashed #000;
+    /* background-color: #000; */
+}
+
+
+/*--------  exp-edu css end ----------*/
+
+/*-------- myskills css start ----------*/
+#myskills
+{
+    padding: 50px 0;
+}
+
+#myskills .container>h4 
+{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 40px;
+    color: #353535;
+}
+
+#myskills .skill-row 
+{
+    margin-top: 40px;
+}
+
+#myskills .skill-row .card-box 
+{
+    margin: 0 0 30px 0;
+}
+
+#myskills .skill-row .card-box .d-flex p:first-child
+{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 180%;
+    color: #353535;
+   
+} 
+
+#myskills .skill-row .card-box:nth-child(1) p:last-child 
+{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 180%;
+    /* text-align: center; */
+    color: #f16500;
+    
+}
+
+#myskills .skill-row .card-box:nth-child(4) p:last-child 
+{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 180%;
+    /* text-align: center; */
+    color: #03249b;
+}
+#myskills .skill-row .card-box:nth-child(3) p:last-child 
+{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 180%;
+    /* text-align: right; */
+    color: #efc003;
+}
+
+#myskills .skill-row .card-box:nth-child(2) p:last-child 
+{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 180%;
+    /* text-align: center; */
+    color: #700d60;   
+}
+
+/*-------- myskills css end ----------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------------------ about.html css end --------------------------------------------------------------*/

@@ -1,0 +1,695 @@
+:root {
+    --font-family: "Poppins", sans-serif;
+    --second-family: "PT Sans", sans-serif;
+    --third-family: "Potta One", sans-serif;
+    --font3: "Baloo Da 2", sans-serif;
+}
+
+
+@media(max-width:1200px) and (min-width:993px) {
+    #banner .img {
+        margin-bottom: 40px;
+    }
+
+    #banner .text-box {
+        text-align: center;
+    }
+
+    #banner .follow {
+        justify-content: center;
+    }
+
+    #about .contains {
+        text-align: center;
+    }
+
+
+    #branding .contains {
+        text-align: center;
+    }
+
+    #branding .image {
+        text-align: center;
+    }
+
+    #branding .shape {
+        display: none;
+
+    }
+
+    #branding .vector {
+        display: none;
+
+    }
+
+    #help .col-xl-7 .contains h4,
+    #help .col-xl-7 .contains p {
+        text-align: center;
+    }
+
+    /* 
+      #help .project .d-flex
+      {
+        justify-content:center;
+      } */
+
+
+    #blogpost .details p:first-child {
+        margin-right: 10px;
+    }
+
+    #blogpost .card-box {
+        text-align: center;
+    }
+
+
+    #expert .nav-pills {
+        justify-content: center;
+    }
+
+    #expert .skills {
+        margin-top: 30px;
+    }
+
+
+
+    #footer .second .call img {
+        left: -78px;
+        top: -53px;
+    }
+
+
+    /*---------------------------------------------------------- contact.html css start ------------------------------------------------------------*/
+    #banner-contact .heading p::before {
+        display: none;
+    }
+
+    #banner-contact .heading p::after {
+        display: none;
+    }
+
+    #banner-contact .heading .shape {
+        position: absolute;
+        left: 182px;
+        top: 43px;
+    }
+
+  
+    /*------------------------------------------------------------ contact.html css end --------------------------------------------------------------*/
+  
+  
+  
+    /*------------------------------------------------------------ about.html css start --------------------------------------------------------------*/
+  
+  /* #aboutme .details 
+{
+    justify-content: between;
+} */
+
+
+#aboutme .buttons
+{
+    text-align: center;
+}
+#aboutme .contains>p
+{
+    margin-bottom: 30px;
+}
+  
+
+#aboutme .contains
+{
+    margin-top: 40px;
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    /*------------------------------------------------------------ about.html css end --------------------------------------------------------------*/
+
+
+
+}
+
+
+
+@media(max-width:992px) {
+
+    /* html, body 
+    {
+        overflow-x: hidden;
+    } */
+    #nav {
+        padding: 13px 0;
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.132);
+    }
+
+    #nav .navbar-toggler {
+        border: none;
+        outline: none;
+        background: transparent;
+    }
+
+    .nav-link {
+        font-family: var(--font-family);
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    /* #offcanvasRight ul li
+    {
+        padding: 10px 0;
+    } */
+
+    /* #nav .navbar-toggler:hover 
+    {
+        outline: 1px solid orchid;
+    } */
+
+    /*-------- bannner section start ----------*/
+
+    #banner h4 {
+        font-size: 40px;
+    }
+
+    #banner .banner-link a:last-child {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    #banner .follow .icons a {
+        margin: 0 8px;
+    }
+
+    #banner {
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    #banner .mouse {
+        display: none;
+    }
+
+    #banner .follow {
+        justify-content: center;
+    }
+
+
+    /*-------- banner section end ----------*/
+
+    /*-------- about css  ----------*/
+    #about {
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    #about .img img {
+        transform: scaleX(-1)
+    }
+
+    #about .contains {
+        padding-top: 30px;
+    }
+
+    #about .contains a {
+        margin-bottom: 20px;
+    }
+
+    #about .contains p {
+        width: 100%;
+    }
+
+    #about .contains h4 {
+        z-index: 3;
+    }
+
+    #about {
+        position: relative;
+    }
+
+
+    #about .shape {
+
+        top: 70px;
+        right: -52px;
+        transform: rotate(-90deg);
+        opacity: 0.1;
+    }
+
+    /*-------- about css  ----------*/
+
+
+    /*-------- cards css  ----------*/
+
+    #cards .card-box {
+        width: calc(100% - 32px);
+
+        margin-bottom: 30px;
+    }
+
+    /*-------- cards css  ----------*/
+
+
+    /*-------- branding css  ----------*/
+
+    #branding {
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    #branding .vector {
+        display: none;
+    }
+
+    #branding .contains {
+        padding-top: 30px;
+
+
+    }
+
+    #branding .contains p {
+        width: 100%;
+        text-align: justify;
+    }
+
+    #branding .shape {
+        position: absolute;
+        top: -50px;
+        right: 30px;
+        display: inline-block;
+    }
+
+    /*-------- branding css  ----------*/
+
+    /*-------- help css  ----------*/
+    #help .col-xl-7 .contains h4 {
+        text-align: center;
+    }
+
+    #help .project .d-flex .col-xl-3 p {
+
+        font-size: 16px;
+
+    }
+
+    #help .col-xl-7 .contains {
+        padding-top: 10px;
+
+    }
+
+    #help .col-xl-7 .contains p {
+        text-align: justify;
+    }
+
+    #help .col-xl-7 .project {
+        margin-bottom: 30px;
+    }
+
+
+
+    /*-------- help css  ----------*/
+
+    /*-------- experience css ----------*/
+
+    #experience {
+        padding: 30px;
+    }
+
+
+    #experience .heading h4 {
+        margin-bottom: 30px;
+    }
+
+    #experience .row .title::before {
+
+        top: 0;
+        left: -49px;
+
+    }
+
+
+
+    #experience .row .title::after {
+        top: 10px;
+        left: -38px;
+    }
+
+
+
+    #experience .row .title {
+        padding-bottom: 20px;
+    }
+
+    #experience .line {
+        display: none;
+    }
+
+    #experience .container {
+
+        padding: 0 20px;
+    }
+
+    #experience .container .row {
+
+        padding: 0 20px 0 60px;
+
+        position: relative;
+    }
+
+
+
+    #experience .container .row::before {
+        content: '';
+        position: absolute;
+        border-left: 2px dashed #7a7a7a;
+        top: 0;
+        left: 32px;
+        height: 100%;
+        width: 2px;
+
+    }
+
+
+    #experience .container .row .details {
+        padding-bottom: 30px;
+    }
+
+    /*-------- experience css ----------*/
+
+    /*-------- expert comment ----------*/
+
+    #expert {
+        text-align: center;
+    }
+
+    #expert .details h4 {
+        font-size: 40px;
+    }
+
+    #expert .details p {
+        text-align: justify;
+    }
+
+    #expert .details a {
+        font-size: 25px;
+        margin-top: 30px;
+    }
+
+    #expert .nav-pills {
+        justify-content: center;
+    }
+
+
+    #expert .skills {
+        padding-top: 30px;
+        padding: 30px 30px 0 30px;
+
+    }
+
+    /* #expert .skills .nav 
+    {
+        padding-left: 30px;
+    } */
+
+
+    #expert .skills .links-select {
+        padding: 16px 32px;
+
+    }
+
+    #expert .skills-list li {
+        text-align: left;
+    }
+
+    /* #expert .skills .contains .num-progress
+{
+    padding-right: 60px;
+}
+
+#expert .skills .contains .photoshop-progress
+{
+    padding-right: 100px;
+}
+
+#expert .skills .contains .xd-progress
+{
+    padding-right: 80px;
+}
+
+#expert .skills .contains .illustrator-progress
+{
+    padding-right: 115px;
+} */
+
+    /*-------- expert css ----------*/
+
+
+    /*-------- services css ----------*/
+    #services {
+        padding: 30px 0;
+        margin-top: 30px;
+        background: #FFF7D5;
+    }
+
+    #services .contains h4 {
+        font-size: 40px;
+    }
+
+    #services .contains p {
+        width: 100%;
+        text-align: justify;
+    }
+
+    #services .row {
+        padding: 0 10px;
+    }
+
+    #services .row .card-box {
+        width: calc(100% - 20px);
+        margin-bottom: 30px;
+    }
+
+    /*-------- services css ----------*/
+
+    /*--------  feedback css  ----------*/
+
+
+    #feedback .contains {
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    #feedback .client-image {
+        text-align: center;
+    }
+
+
+    #feedback .contains h4 {
+        width: 100%;
+    }
+
+    #feedback .contains p {
+        width: 100%;
+        text-align: justify;
+    }
+
+    #feedback .details {
+        margin-top: 40px;
+    }
+
+    #feedback .details .quote {
+        width: 100%;
+        text-align: justify;
+    }
+
+    #feedback .heading h4,
+    #feedback .heading p {
+        text-align: center;
+    }
+
+    /*--------  feedback css  ----------*/
+
+    /*-------- blogpost css start ----------*/
+
+    #blogpost .card-box {
+        width: calc(100% - 20px);
+        text-align: center;
+    }
+
+    #blogpost .card-box .details p:first-child {
+        padding-right: 15px;
+    }
+
+    #blogpost .card-box .details {
+        justify-content: center;
+
+
+    }
+
+
+
+    /* #blogpost .details h5
+{
+    padding-left: 5px;
+} */
+
+    #blogpost .container>h4 {
+        text-align: center;
+        font-size: 36px;
+    }
+
+    /*-------- blogpost css end ----------*/
+
+    /*-------- subscribe css start ----------*/
+    #subscribe .container {
+        padding: 40px 15px;
+        text-align: center;
+    }
+
+    #subscribe .d-flex button {
+        padding: 4px 18px;
+        margin-left: -114px;
+    }
+
+    #subscribe .form-section input {
+        padding: 25px 154px 25px 26px;
+    }
+
+    #subscribe .contains h4 {
+        font-size: 30px;
+    }
+
+    /*-------- subscribe css end ----------*/
+
+    /*-------- footer css start ----------*/
+    #footer {
+        text-align: center;
+    }
+
+    #footer .work {
+        margin: 20px 0;
+    }
+
+    #footer .work p {
+        text-align: center;
+    }
+
+    #footer .second .call p:first-child {
+        text-align: center;
+    }
+
+    #footer .second .email p:first-child {
+        text-align: center;
+    }
+
+
+    /* #footer .first .talk-part .polygon
+{
+    display: none;
+} */
+
+    #footer .second .call img {
+        left: 12px;
+        opacity: 0.6;
+    }
+
+    #footer .first .talk-part .polygon {
+
+        right: 22px;
+        bottom: -19px;
+
+
+    }
+
+    /*-------- footer css end ----------*/
+
+    /*------------------------------------------------------------ contact.html css --------------------------------------------------------------*/
+
+    /*-------- banner-contact css start ----------*/
+    
+    #banner-contact .heading h4 {
+        font-size: 36px;
+    }
+
+    #banner-contact .heading p::before {
+        display: none;
+    }
+
+    #banner-contact .heading p::after {
+        display: none;
+    }
+
+    #banner-contact .heading .shape {
+        position: absolute;
+        left: 80px;
+        top: 31px;
+    }
+    /*-------- banner-contact css end ----------*/
+
+    #card-form .form-section {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+/*------------------------------------------------------------ contact.html css ------------------------------------------------------------------*/
+
+/*------------------------------------------------------------ about.html css --------------------------------------------------------------------*/
+
+#aboutme .contains>p
+{
+    margin-bottom: 30px;
+}
+
+#aboutme .contains
+{
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* #aboutme .details p
+{
+    text-align: center;
+} */
+
+#exp-edu .education 
+{
+    margin-top: 50px;
+}
+
+#exp-edu .education>h4, #exp-edu .experience>h4
+{
+    text-align: center;
+}
+
+#exp-edu
+{
+    padding: 40px 0;
+}
+
+/*-------- myskills css start ----------*/
+
+#myskills .container>h4
+{
+    text-align: center;
+}
+
+#myskills
+{
+    padding: 30px 0 40px 0;
+}
+
+
+
+/*-------- myskills css end ----------*/
+
+
+/*------------------------------------------------------------ about.html css --------------------------------------------------------------------*/
+
+}
