@@ -53,6 +53,46 @@
         justify-content:center;
       } */
 
+    /*-------- experience css start ----------*/
+
+    #experience .row
+    {
+        padding-left: 90px;
+    }
+
+    #experience .row .title::before 
+    {
+        content: "";
+        position: absolute;
+        stroke-width: 2px;
+        height: 42px;
+        width: 42px;
+        border: 2px dashed #7A7A7A ;
+        border-radius: 50%;
+        top: 0;
+        left: -42px;
+        background: #fff;
+        z-index: 2;
+    }
+    
+    #experience .row .title::after
+    {
+        content: "";
+        position: absolute;
+        height: 21px;
+        width: 21px;
+        background: #52AB70 ;
+        top: 0;
+        left: 0;
+        border-radius: 50%;
+        z-index: 3;
+    } 
+
+
+
+
+
+    /*-------- experience css end ----------*/
 
     #blogpost .details p:first-child {
         margin-right: 10px;
@@ -347,9 +387,9 @@
         padding-bottom: 20px;
     }
 
-    #experience .line {
+    /* #experience .line {
         display: none;
-    }
+    } */
 
     #experience .container {
 
