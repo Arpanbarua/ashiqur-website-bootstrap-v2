@@ -148,6 +148,10 @@
     /*-------- expert css end ----------*/
 
 
+    #blogpost .container>h4 
+    {
+        text-align: center;
+    }
 
     #blogpost .details p:first-child {
         margin-right: 10px;
