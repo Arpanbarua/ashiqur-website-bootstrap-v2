@@ -104,6 +104,17 @@
         padding-bottom: 20px;
     }
 
+    #experience .service .title::after 
+{
+    background: #F17676;
+}
+
+#experience .solution .title::after
+{
+    background: #FFD233;
+} 
+
+
 
 
     #experience .line {
