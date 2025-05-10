@@ -1228,7 +1228,7 @@ color: #bbb9b9;
     font-weight: 600;
     font-size: 20px;
     line-height: 180%;
-    padding: 16px 20px 16px 32px;
+    padding: 16px 20px;
     display: inline-flex;
     color: #fff;
     border-radius: 20px;
@@ -1937,7 +1937,7 @@ display: inline-flex;
 
 #blog-card .card-box .card-body
 {
-    padding: 0 20px;
+    padding: 0 5px;
 }
 
 
@@ -1953,17 +1953,16 @@ display: inline-flex;
 {
     font-family: var(--font-family);
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 190%;
     color: #7a7a7a;
-    display: inline-flex;
 }
 
 #blog-card .card-box .card-body p:last-of-type .john
 {
     font-family: var(--font-family);
     font-weight: 500;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 190%;
     color: #353535;
 }
