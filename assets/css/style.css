@@ -1835,16 +1835,164 @@ display: inline-flex;
 
 /*-------- myskills css end ----------*/
 
-
-
-
-
-
-
-
-
-
-
-
-
 /*------------------------------------------------------------ about.html css end --------------------------------------------------------------*/
+
+
+
+/*------------------------------------------------------------ blog.html css end --------------------------------------------------------------*/
+
+/*-------- dms css start ----------*/
+#dms 
+{
+    padding: 30px 0 50px 0;
+}
+#dms .card 
+{
+    outline: 0;
+    border: 0;
+}
+
+#dms .card .card-image 
+{
+    text-align: center;
+}
+
+
+#dms .card .card-body h5 
+{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 164%;
+    color: #353535;
+    margin-bottom: 0;
+}
+
+#dms .card .card-body p:last-of-type span 
+{
+    display: inline-flex;
+    line-height: 0;
+    align-items: center;
+}
+#dms .card .card-body p:last-of-type 
+{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 190%;
+    color: #7a7a7a;
+    display: inline-flex;
+}
+#dms .card .card-body p:first-of-type 
+{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 200%;
+    color: #7a7a7a;
+    margin: 13px 0 35px 0;
+}
+
+#dms .card .card-body p:last-of-type .john
+{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 190%;
+    color: #353535;
+}
+
+/*-------- dms css end ----------*/
+
+
+
+/*-------- blog-card css start ----------*/
+
+#blog-card
+{
+    padding: 40px 0 70px 0;
+}
+
+
+
+#blog-card .card-box:hover 
+{
+    box-shadow: 3px 3px 10px #00000047;
+}
+#blog-card .card-box
+{
+    margin: 12px;
+    width: calc(33.33% - 24px );
+    padding: 0;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-bottom: 15px;
+    
+}
+
+
+
+#blog-card .card-box .card-body
+{
+    padding: 0 20px;
+}
+
+
+
+
+#blog-card .card-box .card-body p:last-of-type span 
+{
+    display: inline-flex;
+    line-height: 0;
+    align-items: center;
+}
+#blog-card .card-box .card-body p:last-of-type 
+{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 190%;
+    color: #7a7a7a;
+    display: inline-flex;
+}
+
+#blog-card .card-box .card-body p:last-of-type .john
+{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 190%;
+    color: #353535;
+}
+
+#blog-card .card-box .card-body h5
+{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 190%;
+    color: #353535;
+    margin-top: 35px;
+}
+
+#blog-card .card-box .card-body p:first-of-type 
+{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    color: #7a7a7a;
+    margin: 9px 0 18px 0;
+}
+
+/*-------- blog-card css end ----------*/
+
+
+
+
+
+
+/*------------------------------------------------------------ blog.html css end --------------------------------------------------------------*/
