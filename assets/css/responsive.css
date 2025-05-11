@@ -5,6 +5,31 @@
     --font3: "Baloo Da 2", sans-serif;
 }
 
+@media(min-width:1201px) and (max-width:1400px) {
+    #tabs-sec .container ul li button {
+        padding: 15px 30px;
+        font-size: 18px;
+    }
+
+    #tabs-sec .container ul li:first-child button {
+        padding: 15px 40px;
+    }
+
+    #tabs-sec .nav-pills {
+        justify-content: center;
+    }
+
+    #banner-contact .heading p::before {
+        left: 243px;
+        bottom: 9px;
+    }
+
+    #banner-contact .heading p::after {
+        right: 242px;
+        bottom: 10px;
+    }
+}
+
 
 @media(max-width:1200px) and (min-width:993px) {
     #banner .img {
@@ -104,15 +129,13 @@
         padding-bottom: 20px;
     }
 
-    #experience .service .title::after 
-{
-    background: #F17676;
-}
+    #experience .service .title::after {
+        background: #F17676;
+    }
 
-#experience .solution .title::after
-{
-    background: #FFD233;
-} 
+    #experience .solution .title::after {
+        background: #FFD233;
+    }
 
 
 
@@ -126,30 +149,26 @@
 
     /*-------- expert css start ----------*/
 
-    #expert .details
-    {
+    #expert .details {
         margin-bottom: 30px;
     }
 
-    #expert .details h4
-    {
+    #expert .details h4 {
         text-align: center;
     }
 
-    #expert .details p
-    {
+    #expert .details p {
         text-align: justify;
     }
 
-    #expert .buttons 
-    {
+    #expert .buttons {
         text-align: center;
     }
+
     /*-------- expert css end ----------*/
 
 
-    #blogpost .container>h4 
-    {
+    #blogpost .container>h4 {
         text-align: center;
     }
 
@@ -161,8 +180,8 @@
         text-align: center;
     }
 
- /*-------- expert css start ----------*/
- 
+    /*-------- expert css start ----------*/
+
     #expert .nav-pills {
         justify-content: center;
     }
@@ -170,28 +189,29 @@
     #expert .skills {
         margin-top: 30px;
     }
- /*-------- expert css end ----------*/
+
+    /*-------- expert css end ----------*/
 
     /*-------- feedback css start ----------*/
-    #feedback .contains h4,  #feedback .contains p, #feedback .details .quote
-    {
+    #feedback .contains h4,
+    #feedback .contains p,
+    #feedback .details .quote {
         width: 100%;
         text-align: center;
     }
-    
-    #feedback .client-image
-    {
+
+    #feedback .client-image {
         text-align: center;
     }
 
-    #feedback .details .quote
-    {
+    #feedback .details .quote {
         margin-top: 30px;
     }
-    #feedback .details .heading 
-    {
+
+    #feedback .details .heading {
         text-align: center;
     }
+
     /*-------- feedback css end ----------*/
 
 
@@ -203,16 +223,20 @@
 
     /*---------------------------------------------------------- contact.html css start ------------------------------------------------------------*/
     #banner-contact .heading p::before {
-        display: none;
+        left: 143px;
+        bottom: 9px;
+        width: 13%;
     }
 
     #banner-contact .heading p::after {
-        display: none;
+        width: 13%;
+        right: 143px;
+        bottom: 9px;
     }
 
     #banner-contact .heading .shape {
         position: absolute;
-        left: 182px;
+        left: 109px;
         top: 43px;
     }
 
@@ -244,26 +268,34 @@
 
 
     /*------------------------------------------------------------ about.html css end --------------------------------------------------------------*/
-  
-  
-  
+
+
+
     /*------------------------------------------------------------ blog.html css end --------------------------------------------------------------*/
-    #dms 
-    {
+    #dms {
         padding: 30px 0;
         text-align: center;
     }
 
-
-
-
-
-
-
-
-
-  
     /*------------------------------------------------------------ blog.html css end --------------------------------------------------------------*/
+
+
+    /*------------------------------------------------------------ projects.html css end --------------------------------------------------------------*/
+    #tabs-sec .container ul li button {
+        padding: 15px 30px;
+        font-size: 14px;
+    }
+
+    #tabs-sec .nav-pills {
+        justify-content: center;
+    }
+
+    #tabs-sec .container ul li:first-child button {
+        padding: 15px 40px;
+    }
+
+    /*------------------------------------------------------------ projects.html css end --------------------------------------------------------------*/
+
 
 
 
@@ -817,49 +849,75 @@
 
 
     /*------------------------------------------------------------ about.html css --------------------------------------------------------------------*/
-   
-   
-   
-   
-   
-   
+
+
+
+
+
+
     /*------------------------------------------------------------ blog.html css --------------------------------------------------------------------*/
-    #dms 
-    {
+    #dms {
         padding: 30px 0;
         text-align: center;
     }
 
-    #dms .card .card-body h5
-    {
+    #dms .card .card-body h5 {
         margin-top: 20px;
     }
-   
+
     /*-------- blog-card css start ----------*/
-    #blog-card .card-box
+    #blog-card .card-box {
+
+        width: calc(100% - 24px);
+    }
+
+
+    /*-------- blog-card css start ----------*/
+
+
+    /*------------------------------------------------------------ blog.html css --------------------------------------------------------------------*/
+
+
+    /*------------------------------------------------------------ blog.html css --------------------------------------------------------------------*/
+   
+   #tabs-sec 
+   {
+    padding: 20px 0 50px 0;
+   }
+    #tabs-sec .container ul li button {
+        padding: 15px 20px;
+        font-size: 14px;
+    }
+
+    #tabs-sec .container ul li {
+        margin: 0;
+        margin-right: 5px;
+    }
+
+    #tabs-sec .nav-pills {
+        justify-content: center;
+    }
+
+    #tabs-sec .container ul li:first-child button {
+        padding: 15px 40px;
+    }
+
+
+    #tabs-sec .card-section .card-box
     {
-        
-        width: calc(100% - 24px ); 
-    } 
-   
+        width: calc(100% - 30px);
+    }
 
+    #tabs-sec .card-section .card-box .card-body p:last-of-type 
+    {
+        font-size: 13px;
+    }
 
-    /*-------- blog-card css start ----------*/
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
+    /* #tabs-sec .container ul li 
+{
+    justif
+} */
+
     /*------------------------------------------------------------ blog.html css --------------------------------------------------------------------*/
 
 }

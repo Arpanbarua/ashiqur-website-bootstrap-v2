@@ -709,7 +709,7 @@ margin-right: 15px;
     background: #fff;
 }
 
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link
+#expert .nav-pills .nav-link.active, .nav-pills .show>.nav-link
 {
     background-color: #fff ;
     outline: 1px solid black;
@@ -1990,8 +1990,93 @@ display: inline-flex;
 /*-------- blog-card css end ----------*/
 
 
-
-
-
-
 /*------------------------------------------------------------ blog.html css end --------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------ projects.html css end --------------------------------------------------------------*/
+
+#tabs-sec 
+{
+    padding: 50px 0;
+}
+
+#tabs-sec .container ul li 
+{
+    margin: 0 10px;
+}
+#tabs-sec .container ul li:first-child
+{
+    margin-left: 0;
+}
+
+#tabs-sec .container ul li button 
+{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180%;
+    color: #353535;
+    padding: 15px 63px;
+}
+
+#tabs-sec .container ul li .active 
+{
+    background: #fff;
+    outline: 1px solid #000;
+border-radius: 20px;
+}
+
+#tabs-sec .nav-pills
+{
+    justify-content: center;
+}
+
+#tabs-sec .card-section
+{
+    margin-top: 20px;
+}
+
+#tabs-sec .card-section .card-box
+{
+    padding: 0;
+    padding-bottom: 10px;
+    margin: 15px;
+    width: calc(50% - 30px);
+    border-radius: 20px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+#tabs-sec .card-section .card-box:hover
+{
+    box-shadow: 4px 4px 10px #00000026;
+}
+
+#tabs-sec .card-section .card-box .card-body 
+{
+    padding: 15px;
+}
+#tabs-sec .card-section .card-box p
+{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 15px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #7a7a7a;
+    margin-bottom: 6px;
+} 
+
+#tabs-sec .card-section .card-box .card-body p:last-of-type 
+{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 24px;
+    color: #353535;
+    text-decoration: none;
+}
+
+
+
+
+/*------------------------------------------------------------ projects.html css end --------------------------------------------------------------*/
